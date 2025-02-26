@@ -11,23 +11,34 @@
 // }
 
 
-console.log("Student Score Calculator");
-console.log("========================");
+// console.log("Student Score Calculator");
+// console.log("========================");
 
-let score = 55;
+// // let score = 55;
 
-if (score < 60) {
-    console.log("F");
+// // if (score < 60) {
+// //     console.log("F");
+// // }
+// // else if (score < 70) {
+// //     console.log("D");
+// // }
+// // else if (score < 80) {
+// //     console.log("C");
+// // }
+// // else if (score < 90) {
+// //     console.log("B");
+// // }
+// // else if (score <= 100) {
+// //     console.log("A")
+// // }
+
+console.log("Array Calculator");
+console.log("================");
+x = [1, 2, 3, 4, 5, 6];
+let sum = 0;
+
+for (let i = 0; i < x.length; i++) {
+    sum += x[i];
 }
-else if (score < 70) {
-    console.log("D");
-}
-else if (score < 80) {
-    console.log("C");
-}
-else if (score < 90) {
-    console.log("B");
-}
-else if (score <= 100) {
-    console.log("A")
-}
+
+console.log(sum);
